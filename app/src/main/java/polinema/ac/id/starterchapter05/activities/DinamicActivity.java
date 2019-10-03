@@ -1,8 +1,7 @@
-package polinema.ac.id.starterchapter05;
+package polinema.ac.id.starterchapter05.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.View;
