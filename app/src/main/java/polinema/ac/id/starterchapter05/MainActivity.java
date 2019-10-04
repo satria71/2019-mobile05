@@ -1,13 +1,13 @@
 package polinema.ac.id.starterchapter05;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import polinema.ac.id.starterchapter05.activities.DinamicActivity;
 import polinema.ac.id.starterchapter05.activities.StaticActivity;
+import polinema.ac.id.starterchapter05.activities.TugasActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,5 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void handlerClickPraktikumFragment(View view) {
+        Intent intent = new Intent(this, TugasActivity.class);
+        startActivity(intent);
     }
 }

@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.DinamicActivity"></activity>
+        <activity android:name=".activities.TugasActivity"></activity>
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/top_blue" />
+
+        <activity android:name=".activities.DinamicActivity" />
         <activity android:name=".activities.StaticActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
